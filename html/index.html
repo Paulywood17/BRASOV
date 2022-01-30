@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BRASOV - Link Academy 2022</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="../Link Academy/dw test/imagini/logobrasov.png">
+  </head>
+  <body><br>
+    <ul>
+      <li><a href="#first-section">City landmarks</a></li>
+      <li><a href="#second-section">Short informations</a></li>
+    </ul>
+    <h1><strong>Brașov</strong></h1>
+    <p><a href="#first-section"><img src="../Assignment nr 1 LA/images/brasov3.png" width="644" height="416" alt="piatasfatului" /></a></p>
+    <h4><a href="../Link Academy/dw test/lorem-ipsum.html">City Highlights:</a></h4>
+    <p>Fringed by the peaks of the Southern Carpathian Mountains and resplendent with gothic, baroque and renaissance architecture, Brasov is one of the most beautiful and visited places in Romania. Brasov DowntownBrasov was founded, in 1211, by the Teutonic Knights, on an ancient Dacian site. In the 13th-Century Brasov was settled by the Saxons and shortly became one of Transylvania's seven walled citadels Siebenburgen.</p>
+    <p>The location of the city at the intersection of trade routes linking the Ottoman Empire and western Europe, together with friendly tax regime, allowed Saxon merchants to obtain considerable wealth and exert strong political influence in the region. This was also reflected in the city's name, Kronstadt (German) or Corona (Latin), meaning the Crown City. Strong fortifications defending towers were erected and maintained with funding provided the town's craft guilds. Brasov is home to one of the the narrowest streets in Europe. The Rope Street (Strada Sforii) is approximately four feet wide; it connects Strada Cerbului with Strada Poarta Schei This street was initially used as an access route by firefighters.</p>
+    <p>The Old Townhall Square (Piața Sfatului) is lined by colorfully painted and richely ornately baroque structures. Just south of the Townhall Square, the Black Church (Biserica Neagra) - the largest gothic structure in Romania - got its name from the appearance of its exteriour walls, darkened by the flames and smoke of the 'Great Fire' of 1689. The impressive interior of the church houses one of the largest organs in Eastern Europe and an unique collection of antique rugs and kilims.</p>
+    <p>Nearby are towering mountains, rolling fields, thick forests and villages with fortified churches. * The seven walled citadels populated by the Saxons of Transylvania were known in German as the Siebenbürgen. The other Siebenbürgen citadels were: Bistrita (Bistritz), Cluj (Klausenburg), , Medias (Mediasch), Sebes (Mühlbach), Sibiu (Hermannstadt), Sighisoara (Schässburg)</p>
+    <p>Text & Images:<a href="../Link Academy/dw test/lorem-ipsum.html"> ROMANIA TOURISM</a></p>
+    <h1 id="first-section">City Landmarks</h1>
+    <h4>The Council Square (Piața Sfatului)</h4>
+    <p>The Transylvanian Saxons built massive stone walls and seven bastions around the city (still visible today), as well as ornate churches, elaborately decorated buildings and one of the most picturesque central squares in Transylvania, said to be the spot to which the legendary Pied Piper led the children of Hamlin. Located at the heart of old medieval Brasov and lined with beautiful red-roofed merchant houses, the Council Square, known to the Saxon population as the Marktplatz, is a nice place to rest and watch the locals and visitors.</p><img src="../Assignment nr 1 LA/images/brasov-old-town-hall.jpg" width="357" height="231" alt="oras" />
+    <ol>
+      <li>Address: Piata Sfatului 30</li>
+      <li>Built in 1420, Casa Sfatului served for several centuries as meeting place for the town's council members.</li>
+      <li>At the beginning of the 17th-Century, the building's watchtower became the place from which a trumpeter announced the top of the hour and hence nicknamed "Trumpeter's Tower".</li>
+      <li>Today, the Old Town Hall houses Brasov's History Museum</li>
+    </ol>
+    <h1 id="second-section">Short informations</h1>
+    <p>Brasov is often referred to as the city at the foot of Mount Tampa. Above the Weavers' Bastion, along the southeastern side of the fortress walls, there is an alley (Aleea Tiberiu Brediceanu), shaded by old trees and dotted with benches. From here, one can hike to the top of Tampa Mountain, where the original defensive fortress was built.</p>
+    <ul><img src="../Assignment nr 1 LA/images/tampabrasov.jpg" width="258" height="292" alt="telecabina" align="right" /></ul>
+    <p>When Vlad Tepes (the Impaler) attacked Brasov in 1458-60, the citadel was destroyed' 40 merchants who refused to pay trade taxes were impaled, of course, on top of the mountain. Walking to the top takes about an hour; just follow the 'red triangle' marked trail that begins at the cable car (lower) boarding point or the yellow triangle marked trail which continues from Brediceanu Alley. Those in a hurry or not in the mood for a little hiking, can take the cable car to the peak of the mountain (3,200 feet high).</p>
+    <h4>Tampa Cable Car - Brasov, Fast Facts (Telecabina Tampa)</h4>
+    <h4>Hours:</h4>
+    <ul>
+      <li> Daily 9:30 am - 5 pm (Monday hours may be affected by Regular Inspection & Maintenance work)</li>
+      <li>Adult – one way 10 Lei</li>
+      <li>Adult – round trip 17 Lei</li>
+      <li>Child, up to 12 y.o. – one way 6 Lei</li>
+      <li>Child, up to 12 y.o. – round trip 12 Lei</li>
+      <li>Trip duration: 2 minutes and 30 seconds</li><br>
+      <hr>
+      </li>
+    </ul>
+    <h3>PAGINI:</h3>
+    <ul>
+      <li><a href="history.html">History</a></li>
+      <li><a href="attractions.html">Attractions Near Brasov</a></li>
+      <li><a href="tourism.html">Tourism</a></li>
+    </ul>
+    <script>
+      // Select all links with hashes
+      $('a[href*="#"]')
+        // Remove links that don't actually link to anything
+        .not('[href="#"]').not('[href="#0"]').click(function(event) {
+          // On-page links
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            // Figure out element to scroll to
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            // Does a scroll target exist?
+            if (target.length) {
+              // Only prevent default if animation is actually gonna happen
+              event.preventDefault();
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000, function() {
+                // Callback after animation
+                // Must change focus!
+                var $target = $(target);
+                $target.focus();
+                if ($target.is(":focus")) { // Checking if the target was focused
+                  return false;
+                } else {
+                  $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                  $target.focus(); // Set focus again
+                };
+              });
+            }
+          }
+        });
+    </script>
+  </body>
+</html>
